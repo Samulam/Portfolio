@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Engineering Portfolio</title>
     <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
   <header class="container">
     <nav class="nav nav-pills nav-fill">
       <a class="nav-item nav-link active" 
-      href="index.html">home</a>
+      href="index.html">Home</a>
       <a class="nav-item nav-link"
       href="Borecky_AboutMe.html">About Me</a>
       <a class="nav-item nav-link"
@@ -20,58 +21,71 @@
       href="Borecky_ContactMe.html">Contact Me</a>
   </nav>
   </header>
+<hr>
+
   <section class="container">
     <div class="jumbotron">
       <div class="row-text-left">
-        <h2>Sammy's Engineering Portfolio</h2>
-        <p>I am a student in DHS and currently in Computer Scienct Principles</p>
-        <a href="index.html">Continue Reading...</a>
+        <h2>Samuel Borecky's Engineering Portfolio</h2>
+        <p>I am a student at DHS and currently in Computer Science Principles</p>
+        <a href="Borecky_AboutMe.html">Continue Reading...</a>
       </div>
     </div>
   </section>
-  <section class="row">
-    <div class="box1">
-      <img src="Images/me.png" alt="Picture of me">
-      <h6><strong>Work Experience</strong></h6>
-      <h4>HTML & CSS</h4>
-      <h5>Summer 2019</h5>
-      <p>(write about your experience in HTML and CSS)</p>
-      <a href="Borecky_Resume.html">Continue Reading</a>
-    </div>
-    <div class="box2">
-      <h6><strong>Projects</strong></h6>
-      <h4>Scratch Project</h4>
-      <h5>CSP</h5>
-      <p>This project...</p>
-      <a href="Borecky_Projects.html">Continue Reading</a>
-    </div>
-  </section>
-  <section class="row">
-    <div class="box3">
-      <img src="Images/me.png" alt="Picture of me">
-      <h6><strong>Work Experience</strong><h6>
-      <h4>HTML & CSS</h4>
-      <h5>Summer 2019</h5>
-      <p>(write about your experience in HTML and CSS)</p>
-      <a href="Borecky_Resume.html">Continue Reading</a>
-    </div>
-    <div class="box4">
-      <h6><strong>Projects</strong></h6>
-      <h4>App Inventor</h4>
-      <h5>CSP</h5>
-      <p>This project...</p>
-      <a href="Borecky_Projects.html">Continue Reading</a>
-    </div>
-  </section>
-  <footer class="container">
-    <div class="jumbotron">
-      <div class="row3">
-        <div class="col-sm-12">
-          <a href="samulam123@gmail.com" target="_blank"></a>
-          <a href="https://www.linkedin.com" target="_blank"><img style="margin-left: 150px" alt="LinkedIn Website Link"></a>
-          <a href="https://www.dublin.k12.ca.us/dhs" target="_blank"><img style="margin-left: 525px" src="Images/DHS2.png" alt="Dublin High School"></a>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card flex-md-row">
+          <div class="card-body">
+            <h6><strong>Work Experience</strong></h6>
+            <h4>HTML & CSS</h4>
+            <h5>Fall 2019</h5>
+            <p>Various projects for class
+            </p>
+            <a href="Borecky_Resume.html">Continue Reading</a>
+          </div>
+          <img class="card-img-right" style='max-width:250px; max-height:250px' src="Images/DHS 2020.png"  alt="Picture of me">
         </div>
       </div>
+
+    <div class="col-md-6">
+        <div class="card flex-md-row">
+          <div class="card-body">
+            <h6><strong>Projects</strong></h6>
+            <h4>Scratch Project</h4>
+            <h4>MIT App Inventor</h4>
+            <p>These were class projects</p>
+            <a href="Borecky_Projects.html">Continue Reading</a>
+          </div>
+          <img class="card-img-right" style='max-height:234px' src="Images/Scratch logo.jpg"  alt="Scratch logo">
+        </div>
+      </div>
+    </div>
+
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+</style>
+
+  <footer class="container">
+    <div class="footer">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-3">
+          <a href='mailto:samulam123@gmail.com' target="_blank">
+            <img src="Images/email-icon.png" style="max-width:100px" alt="Email me">
+          </a>
+        </div>
+<div class="col-5">
+          <a href="https://www.dublin.k12.ca.us/dhs" target="_blank"><img style="margin-left: 525px" src="Images/DHS2.png" alt="Dublin High School"></a>
+      </div>
+    </div>
     </div>
   </footer>
   </body>
